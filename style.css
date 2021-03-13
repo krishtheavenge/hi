@@ -1,0 +1,97 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    width: 50%;
+    height: fit-content;
+    font-size: 40px;
+    box-shadow: 5px 5px 18px aqua;
+        animation-name: something;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+}@keyframes something{
+    from{
+        box-shadow:6px 6px 50px 15px aqua;
+        transform: rotateX(150deg);
+        transform: rotateY(130deg);
+        transform: rotateZ(180deg);
+    }
+    to{
+        box-shadow: 6px 6px 50px 15px orange; 
+                transform: rotateX(90deg);
+                transform: rotateY(20deg);
+                transform: rotateZ(360deg);
+    }
+}
+
+#heading_div{
+        box-shadow: 5px 5px 18px black;
+        border: 3px black;
+        border-radius: 7px;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        width: 40%;
+       text-align: center;
+       float: none;
+       font-size: 25px;
+}
+.objects{
+    font-size: 20px;
+    box-shadow:5px 5px 18px black;
+    
+}
+
+.O{
+    font-size: 30px;
+    box-shadow: 10px 10px 18px black;
+    width: 20%;
+    color: black;
+}
+.A{
+    font-size: 30px;
+    box-shadow: 10px 10px 18px black;
+    width: 20%;
+    color: black;
+}
+#Object,#Accuracy{
+    
+    color: black;
+    font-weight: bold;
+     font-variant:small-caps;
+
+}
+#footer{
+    width: 100%;
+    position:fixed;
+    background-color: rgb(0, 0, 0);
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 0;
+    line-height: 3;
+    animation-name: hi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}@keyframes hi{
+    0% {background-color:aqua;}
+    35% {background-color:orange;}   
+    50% {background-color:yellow;}
+    100% {background-color:green;}
+    from{
+        font-size:medium;
+    }
+
+    to{
+            font-size: 30px;
+    }
+}
+canvas{
+    box-shadow:10px 10px 18px black;
+    border: 3px black dashed;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 300px;
+}
